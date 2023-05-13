@@ -1,0 +1,19 @@
+{
+  "name": "@sardine/astro-integration-tinycss",
+  "version": "1.0.0",
+  "description": "An integration for Astro to minify and optimise CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sardinedev/astro-integrations.git"
+  },
+  "author": "Marabyte",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sardinedev/astro-integrations/issues"
+  },
+  "homepage": "https://github.com/sardinedev/astro-integrations#readme"
+}

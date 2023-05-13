@@ -1,0 +1,40 @@
+{
+  "name": "@sardine/astro-integrations",
+  "version": "1.0.0",
+  "description": "A colection of Integrations for Astro",
+  "main": "index.js",
+  "private": true,
+  "workspaces": [
+    "./packages/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Astro",
+    "Integration"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@changesets/changelog-github": "^0.4.8",
+    "@changesets/cli": "^2.26.1",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.2",
+    "parcel": "^2.8.3",
+    "rome": "^12.0.0",
+    "turbo": "^1.9.4",
+    "typescript": "^5.0.4"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,ts}": [
+      "npx rome format ./packages --write",
+      "npx rome check ./packages --apply"
+    ]
+  }
+}
