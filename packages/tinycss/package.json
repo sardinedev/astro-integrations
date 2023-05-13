@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/sardinedev/astro-integrations.git"
   },
-  "author": "Marabyte",
+  "author": "Hugo Nogueira <hnogueira@marabyte.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/sardinedev/astro-integrations/issues"
